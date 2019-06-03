@@ -1,1 +1,4 @@
-# ProjectPlanner
+# Project Planner App with Charts
+
+A simple project planning tool where you can create any number of projects and project tasks.
+The app uses a master-detail application pattern with the key project details in the master view’s UITableView and the corresponding ‘Detail’ view will detail the project plus related tasks. The detail view gives a graphical indication of task progress and the task details. The detail view also allows the user to add add/delete/edit tasks. When a project is created it  is also marked as an event in the iPad Calendar. The user can indicate when a task is completed or can set an estimate of the percentage completed. The application calculates the total progress as a percentage to the user based on the progress of all the subtasks. All the data entered, and state of a project is persistently stored using core data.
